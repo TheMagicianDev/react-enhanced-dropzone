@@ -1,0 +1,49 @@
+.FileItem {
+    position: relative;
+
+    width: 200px;
+    height: 150px;
+
+    padding: 10px;
+    border-radius: 10px;
+    border: rgba(48, 48, 255, 0.164) solid 1px;
+    margin: 5px;
+    
+    // background: red;
+    .preview {
+        position: relative;
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        video {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        img {
+            width: 100%;
+            height: 100px;
+
+            object-fit: cover;
+        }
+    }
+
+    .name {
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 40px;
+        z-index: 0;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        // background: yellow;
+        $pd: 10px;
+        padding-left: $pd;
+        padding-right: $pd;
+    }
+}

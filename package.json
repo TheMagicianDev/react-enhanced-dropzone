@@ -1,0 +1,33 @@
+{
+  "name": "react-enhanced-dropzone",
+  "version": "1.0.0",
+  "description": "Wrapper around `ReactDropZone` component. That does bring a large list of enhancement and features list.",
+  "main": "index.jsx",
+  "dependencies": {
+    "axios": "0.18.0",
+    "classnames": "2.2.6",
+    "react-custom-scrollbars": "4.2.1",
+    "react-dropzone": "8.0.4"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheMagicianDev/react-enhanced-dropzone.git"
+  },
+  "author": "Mohamed Lamine Allal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMagicianDev/react-enhanced-dropzone/issues"
+  },
+  "homepage": "https://github.com/TheMagicianDev/react-enhanced-dropzone#readme",
+  "keywords": [
+    "react",
+    "component",
+    "upload",
+    "dropzone",
+    "enhanced"
+  ]
+}
